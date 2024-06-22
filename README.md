@@ -59,3 +59,15 @@ This project involves a comprehensive analysis of bank loan data visualized thro
         Goodloan_Funded_Amount = CALCULATE([Total_Funded_Amount], 'Loan_DATA'[loan_status] = "Good")
         Goodloan_Total_Received_Amount = CALCULATE([Total_Amount_Received], 'Loan_DATA'[loan_status] = "Good")
        ```
+
+   <ul>**DAX Calculations for Bad Loans:**</ul>
+       ```DAX
+        Badloan% = CALCULATE([Total_Loan_Applications], 'Loan_DATA'[loan_status] = "Bad") / [Total_Loan_Applications]
+        Badloan_Applications = CALCULATE([Total_Loan_Applications], 'Loan_DATA'[loan_status] = "Bad")
+        Badloan_Funded_Amount = CALCULATE([Total_Funded_Amount], 'Loan_DATA'[loan_status] = "Bad")
+        Badloan_Total_Received_Amount = CALCULATE([Total_Amount_Received], 'Loan_DATA'[loan_status] = "Bad")
+       ```
+
+## Project Background
+   <li>**Figma**: Used for initial layout and design planning to ensure a user-friendly dashboard interface.
+   <li>**Adobe Photoshop**: Utilized for creating custom visuals to enhance the dashboard's aesthetic appeal.
