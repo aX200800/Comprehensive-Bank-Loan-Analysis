@@ -73,3 +73,6 @@ This project involves a comprehensive analysis of bank loan data visualized thro
 
    **Figma**: Used for initial layout and design planning to ensure a user-friendly dashboard interface.   
    **Adobe Photoshop**: Utilized for creating custom visuals to enhance the dashboard's aesthetic appeal.
+
+## Summary
+The Comprehensive Bank Loan Analysis dashboard is designed to provide in-depth insights into various loan metrics. Using advanced DAX calculations and a visually appealing interface, the dashboard helps in understanding loan distribution, funding, and repayment trends, empowering stakeholders to make informed decisions.
