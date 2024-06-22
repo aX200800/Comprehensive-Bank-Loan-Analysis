@@ -54,20 +54,20 @@ This project involves a comprehensive analysis of bank loan data visualized thro
 6. **Good Loans vs Bad Loans:**
    
    - **DAX Calculations for Good Loans:**   
-
+      ```DAX
         Goodloan% = CALCULATE([Total_Loan_Applications], 'Loan_DATA'[loan_status] = "Good") / [Total_Loan_Applications]
         Goodloan_Applications = CALCULATE([Total_Loan_Applications], 'Loan_DATA'[loan_status] = "Good")
         Goodloan_Funded_Amount = CALCULATE([Total_Funded_Amount], 'Loan_DATA'[loan_status] = "Good")
         Goodloan_Total_Received_Amount = CALCULATE([Total_Amount_Received], 'Loan_DATA'[loan_status] = "Good")
-
+      ```
 
    - **DAX Calculations for Bad Loans:**
-   
+      ```DAX
         Badloan% = CALCULATE([Total_Loan_Applications], 'Loan_DATA'[loan_status] = "Bad") / [Total_Loan_Applications]
         Badloan_Applications = CALCULATE([Total_Loan_Applications], 'Loan_DATA'[loan_status] = "Bad")
         Badloan_Funded_Amount = CALCULATE([Total_Funded_Amount], 'Loan_DATA'[loan_status] = "Bad")
         Badloan_Total_Received_Amount = CALCULATE([Total_Amount_Received], 'Loan_DATA'[loan_status] = "Bad")
-
+      ```
 
 ## Project Background
 
